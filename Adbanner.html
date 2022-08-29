@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Banner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        body{
+            width: fit-content;
+            background-color: hsl(233, 47%, 7%);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+        }
+    
+        #container{
+            margin: 100px 80px;
+            width: 1080px;
+            display: flex;
+            padding: 0px;
+            border-radius: 7px;
+            overflow: hidden;
+           
+        }
+        #left{
+            padding:60px 80px;
+            width:540px;
+            background-color: hsl(244, 38%, 16%);
+        }
+        #right{
+            width:540px;
+            background-color:hsl(277, 64%, 61%);
+        }
+        h1{
+            color: hsl(0, 0%, 100%);
+        }
+        .s-text{
+            color: hsla(0, 0%, 100%, 0.75);
+        }
+        h3{
+            color:hsl(0, 0%, 100%);
+            margin-bottom: 0;
+        }
+        .stat{
+            color:hsla(0, 0%, 100%, 0.6);
+            margin-top: 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 10px;
+
+        }
+        #left-lower{
+            margin-top: 45px;
+            display: flex;
+            text-align: justify;
+            align-content: center;
+        }
+        #stat-cont{
+            margin-right:15%;
+        }
+        img{
+            height: 100%;
+            width: 540px;
+            opacity: 60%;
+        }
+        p{
+            margin: 5px 0px;
+        }
+        #h1-top{
+            margin-bottom: 0;
+        }
+        #h1-bottom{
+            margin-top: 0;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <h1 id="h1-top">Get <span style="color:hsl(277, 64%, 61%)
+                ;">insights</span> that help
+            </h1>
+            <h1 id="h1-bottom"> Your business grow.</h1>
+            <p class="s-text" >Discover the benefits of data analytics and make</p>
+            <p class="s-text"> better decisions regarding revenue, customer</p>
+            <p class="s-text"> experience, and overall efficiency.</p>
+            <div id="left-lower">
+                <div id="stat-cont">
+                    <h3>10K+ <br></h3>
+                    <p class="stat">COMPANIES</p>
+                </div>
+                <div id="stat-cont">
+                    <h3>314</h3>
+                    <p class="stat">TEMPLATES</p>
+                </div>
+                <div id="stat-cont">
+                    <h3>12M+</h3>
+                    <P class="stat">QUERIES</P>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <img src="/image-header-desktop.jpg" alt="image-header" >
+        </div>
+    </div>
+</body>
+</html>
